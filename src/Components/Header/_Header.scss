@@ -1,0 +1,138 @@
+@use "../../Style/Sass/Index" as *;
+.header-top-strip {
+    background-color: $primary;
+    border-bottom: 1px solid $secondary;
+}
+.header-upper {
+    background-color: $primary;
+
+    .input-group-text {
+        background-color: $third;
+        margin-left: -2px;
+    }
+
+    .header-upper-links {
+        img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
+.header-bottom {
+    background-color: $fourth;
+
+    .menu-links a,
+    .dropdown button {
+        color: white;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+    }
+
+    .dropdown button:focus {
+        box-shadow: none;
+    }
+
+    .dropdown {
+        .dropdown-menu {
+            background-color: $primary;
+            width: 100%;
+            transform: translate3d(0px, 57px, 0px) !important;
+            padding-bottom: 0px;
+
+            .dropdown-item {
+                padding: 20px;
+
+                margin-bottom: 3px;
+                border-bottom: 1px solid $secondary;
+            }
+
+            .dropdown-item:hover {
+                background-color: transparent;
+                color: $third !important;
+            }
+        }
+    }
+}
+
+@media (max-width: $lg) {
+    .logoHeader {
+        font-size: 22px;
+    }
+    .input-group {
+        .form-control {
+            height: 45px;
+        }
+    }
+    .header-upper-links {
+        gap: 10px;
+        img {
+            width: 25px !important;
+            height: 25px !important;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .header-upper {
+        .row {
+            flex-direction: column;
+            gap: 25px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 0px;
+        }
+    }
+    .header-top-strip {
+        .firstHeader {
+            font-size: 15px;
+        }
+    }
+    .header-upper-links {
+        gap: 10px;
+        img {
+            width: 30px !important;
+            height: 30px !important;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .menu-bottom {
+        gap: 15px !important;
+    }
+    .menu-links a,
+    .dropdown button {
+        font-size: 12px !important;
+    }
+    .dropdown img {
+        width: 25px;
+    }
+}
+
+@media (max-width: $phone) {
+    .menu-bottom {
+        gap: 0px !important;
+    }
+    .header-top-strip {
+        .firstHeader {
+            font-size: 13px;
+        }
+    }
+    .header-upper-links {
+        gap: 10px;
+        img {
+            width: 25px !important;
+            height: 25px !important;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}

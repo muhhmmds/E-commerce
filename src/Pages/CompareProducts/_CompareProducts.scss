@@ -1,0 +1,36 @@
+@use "../../Style/Sass/Index" as *;
+
+.compareProductCard {
+    padding: 20px 15px;
+    background-color: white;
+    border-radius: 10px;
+
+    .cross {
+        top: 15px;
+        right: 15px;
+        width: 25px;
+        padding: 3px;
+        cursor: pointer;
+    }
+
+    .CompareProductDetails {
+        h5.Title {
+            font-size: 15px;
+            line-height: 22px;
+            font-weight: 500;
+            color: $ninth;
+        }
+        h6.price {
+            font-size: 15px;
+            line-height: 22px;
+            font-weight: 400;
+        }
+        .productDetail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+    }
+}
