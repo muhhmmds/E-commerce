@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/E-commerce/static/css/main.806f3ae6.css",
-    "main.js": "/E-commerce/static/js/main.480d890f.js",
+    "main.js": "/E-commerce/static/js/main.b0085ccf.js",
     "static/media/main-banner-1.jpg": "/E-commerce/static/media/main-banner-1.e4ca3797700ec9ea33e5.jpg",
     "static/media/alexunder-hess-bWZAPKm0zZE-unsplash.jpg": "/E-commerce/static/media/alexunder-hess-bWZAPKm0zZE-unsplash.914135b83d66db3d0a9d.jpg",
     "static/media/alexunder-hess-6zqd6092B1c-unsplash.jpg": "/E-commerce/static/media/alexunder-hess-6zqd6092B1c-unsplash.a5bdefbab3fbd1c14c68.jpg",
@@ -29,10 +29,10 @@
     "static/media/user.svg": "/E-commerce/static/media/user.cd86e0566bbf017c8167249084d368e3.svg",
     "static/media/cross.svg": "/E-commerce/static/media/cross.bf9c2c127cb9cecabfe621ba624f3814.svg",
     "main.806f3ae6.css.map": "/E-commerce/static/css/main.806f3ae6.css.map",
-    "main.480d890f.js.map": "/E-commerce/static/js/main.480d890f.js.map"
+    "main.b0085ccf.js.map": "/E-commerce/static/js/main.b0085ccf.js.map"
   },
   "entrypoints": [
     "static/css/main.806f3ae6.css",
-    "static/js/main.480d890f.js"
+    "static/js/main.b0085ccf.js"
   ]
 }
